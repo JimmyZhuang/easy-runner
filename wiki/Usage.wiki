@@ -55,4 +55,13 @@ Easy Runner主要实现了多线程压测,类似LoadRunner,能得出QPS和RT,并
 
 == 生成图形篇 ==
 生成图形也很简单,直接在命令行键入python plot.py 就是自动分析刚才的log文件生成图形(plot.py需要matlibplot的支持~)
+
 图形样例如下:
+ * 返回成功的QPS:
+   [http://pic.yupoo.com/zephyrleaves/Bg97VkM4/medish.jpg]
+ * 返回失败的QPS:
+   [http://pic.yupoo.com/zephyrleaves/Bg97Vvdt/medish.jpg]
+ * 总QPS(失败+成功):
+   [http://pic.yupoo.com/zephyrleaves/Bg97VJtv/medish.jpg]
+ * 响应时间
+   [http://pic.yupoo.com/zephyrleaves/Bg97VBCA/medish.jpg]
