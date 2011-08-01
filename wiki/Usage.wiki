@@ -15,7 +15,7 @@ Easy Runner主要实现了多线程压测,类似LoadRunner,能得出QPS和RT,并
   # 支持warming
   # 可画出性能曲线
   # 使用方便,启动迅速,一条命令即可开始压测
-== 优势 ==: 
+== 优势 == 
   # scenario直接使用python编写scenario,使天然支持多协议
   # Easy Runner一共300来行代码,维护方便
 == 劣势 ==
